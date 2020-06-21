@@ -13,21 +13,50 @@
 	font-size: 30px;
 	letter-spacing: 3px;
 }
+.thanku{
+	width: auto;
+	height: auto;
+	position: fixed;
+	left: 50%;
+}
 .thank {
 	display: block;
-	position: absolute;
-	left: 200px;
 	width: 1100px;
 	height: auto;
-	top: 0px;
+	position: fixed;
+	left: 15%;
+	top: -20%;
+	z-index: 6;
 }
-.thank img{
-	margin-left: auto;
-	margin-right: auto;
+.made{
+	width: 500px;
+	position: fixed;
 	display: block;
+	top: 30%;
+	left: 35%;
+	z-index: 6;
+}
+.peterA{
+	position: absolute;
+	top: 0px;
+	height: auto;
+	width: auto;
 }
 .peter {
 	width: 300px;
+	height: 200px;
+}
+.peter2{
+	width: 250px;
+	display: block;
+	position: relative;
+	top: -150px;
+	margin-left: 20px;
+	height: auto;
+}
+.ineA{
+	position: absolute;
+	top: -100px;
 }
 .ine{
 	width: 300px;
@@ -35,44 +64,124 @@
 	left: 0px;
 	top: 300px;
 }
+.ine2{
+	display: block;
+	position: absolute;
+	top: 380px;
+	width: 250px;
+	margin-left: 50px;
+}
+.keeA{
+	display: block;	
+}
 .kee{
 	width: 300px;
 	position: absolute;
 	top: 500px;
 }
+.kee2{
+	display: block;
+	position: absolute;
+	top: 530px;
+	width: 300px;
+	margin-left: 50px;
+}
+.tutuA{
+	display: block;
+	position: fixed;
+	left: 80%;
+	top: -5%;
+}
 .tutu{
 	width: 300px;
-	top: 0px;
-	left: 1100px;
-	position: absolute;
+	max-height: none;
+	display: block;
+}
+.tutu2{
+	width: 250px;
+	display: block;
+	position: fixed;
+	top: 5%;
+}
+.marinaA{
+	display: block;
+	position: fixed;
+	left: 70%;
+	top: 10%;
 }
 .marina {
 	width: 300px;
 	position: absolute;
-	top: 150px;
-	left: 1100px;
+}
+.marina2{
+	width: 250px;
+	position: fixed;
+	top: 18%;
+}
+.fokkaA{
+	display: block;
+	position: fixed;
+	left: 70%;
+	top: 25%;
 }
 .fokka {
 	width: 300px;
-	position: absolute;
-	left: 1000px;
-	top: auto;
+}
+.fokka2{
+	position: fixed;
+	width: 300px;
+	top: 33%;
+	left: 70%;
+}
+.ingeA{
+	display: block;
+	position: fixed;
+	left: 55%;
+	top: 53%;
 }
 .inge {
 	width: 300px;
-	position: absolute;
-	left: 900px;
-	top: 450px;
+}
+.inge2{
+	width: 350px;
+	position: fixed;
+	left: 55%;
+	top: 55%;
+}
+.vereA{
+	display: block;
+	position: fixed;
+	left: 80%;
+	top: 50%;
 }
 .vere {
 	width: 300px;
-	left: 1150px;
-	position: absolute;
-	top: 400px;
+}
+.vere2{
+	width: 250px;
+	position: fixed;
+	top: 58%;
+	left: 80%;
+}
+.writeA{
+	display: block;
+	position: fixed;
+	left: 40%;
+	top: 63%;
 }
 .writer {
-	width: 300px;
-	position: absolute;
-	left: 800px;
-	top: 500px;
+	width: 400px;
+}
+.writer2{
+	display: block;
+	width: 400px;
+	position: fixed;
+	top: 83%;
+}
+.EPG {
+	width: 1000px;
+	position: fixed;
+	z-index: auto;
+	left: 14%;
+	top: 146px;
 }

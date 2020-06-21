@@ -5,28 +5,14 @@
 	background-size: cover;
 	text-decoration: none;
 }
-.1 {
-	display: block;
-	margin-left: 5px;
-	margin-top: 5px;
-	font-size: 6px;
-	width: 800px;
-	height: auto;
-}
-.2 {
-	display: block;
-	width: 600px;
-	position: absolute;
-	top: 30px;
-}
 .T1 {
-	margin-top: 5px;
-	margin-left: 5px;
-	width: 800px;
-	height: auto;
+	width: auto;
 	font-size: 20px;
-	letter-spacing: 3px;
-	word-spacing: 5px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	display: block;
+	text-align: center;
+	height: auto;
 }
 .T2 {
 	font-size: 20px;
@@ -34,6 +20,7 @@
 	letter-spacing: 3px;
 	margin-top: 5px;
 	margin-left: 5px;
+	position: relative;
 }
 .T3 {
 	margin-left: 5px;
@@ -108,3 +95,40 @@
 	margin-left: 10px;
 	margin-bottom: 10px;
 }
+
+.poem {
+	cursor: crosshair;
+	margin: 10px auto;
+	float: right;
+	padding: 0px auto;
+	line-height: 1em;
+	font-family: helvetica;
+	color: black;
+	font-size: 410%;
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+
+.A:hover { 
+    font-family: times new roman; 
+    color: black;
+	}
+.B:hover { 
+    font-family:Snell Roundhand; 
+	color:black;}
+	
+.C:hover { 
+    font-family:Silom; 
+    color: black;
+	font-stretch:extra-condensed;
+	text-transform:uppercase;
+	}
+	
+	.C1:hover { 
+    font-family:Silom; 
+    color: red;
+	font-stretch:extra-condensed;
+	text-transform:uppercase;
+	}
+	

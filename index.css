@@ -16,7 +16,7 @@
 }
 .omsingelde {
 	text-decoration: none;
-	word-break: break-all;
+	word-break: normal;
 	display: block;
 	position: relative;
 	margin-left: 10px;
@@ -29,7 +29,7 @@
 	letter-spacing: 10px;
 	word-spacing: 10px;
 	margin-top: 10px;
-	top: 7%;
+	top: 22%;
 }
 .pluk {
 	width: 450px;
@@ -46,13 +46,13 @@
 	word-spacing: 10px;
 }
 .performance {
-	width: 620px;
+	width: 700px;
 	text-align: left;
 	text-decoration: none;
 	word-break: break-all;
 	display: block;
 	position: relative;
-	top: 400px;
+	top: 99px;
 	font-size: 80px;
 	color: #FF0400;
 	margin-left: 50px;
@@ -84,27 +84,29 @@
 	width: 500px;
 	height: auto;
 	position: fixed;
-	left: 65%;
+	left: 55%;
 	top: 50%;
 }
 .lok {
-	width: 300px;
+	width: 500px;
 	text-align: left;
 	text-decoration: none;
 	display: block;
 	color: #FF0400;
 	font-size: 80px;
 	position: fixed;
-	left: 64%;
+	left: 60%;
 	bottom: 20%;
 	letter-spacing: 5px;
 	word-spacing: 15px;
 	top: 75%;
+	line-height: 80px;
 }
 .opg {
 	position: fixed;
 	width: auto;
 	left: 40%;
+	text-decoration: none;
 }
 .div {
 	background-repeat: no-repeat;
@@ -116,4 +118,77 @@
 	left: 0px;
 	right: 0px;
 	bottom: auto;
+}
+.h1 {
+	color: #EA062C;
+	display: block;
+	width: auto;
+	height: auto;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	text-align: left;
+	text-decoration: none;
+	position: relative;
+	left: 233px;
+	top: 24px;
+	font-size: 40px;
+}
+.h7 {
+	font-size: 40px;
+	color: #FF0400;
+	display: block;
+	width: auto;
+	height: auto;
+	position: relative;
+	left: 542px;
+	top: -105px;
+}
+.h6 {
+	width: auto;
+	height: auto;
+	font-size: 40px;
+	display: block;
+	color: #FF0400;
+	position: relative;
+	left: 374px;
+	top: -81px;
+}
+.h5 {
+	width: auto;
+	height: auto;
+	display: block;
+	color: #FF0400;
+	font-size: 40px;
+	position: relative;
+	left: 589px;
+}
+.h3 {
+	width: auto;
+	height: auto;
+	display: block;
+	color: #FF0400;
+	font-size: 60px;
+	position: relative;
+	left: 1328px;
+	top: -400px;
+}
+.h4{
+	width: auto;
+	height: auto;
+	display: block;
+	color: #FF0400;
+	font-size: 60px;
+	text-align: undefined;
+	position: relative;
+	left: 1375px;
+	top: -320px;
+}
+.h2{
+	width: auto;
+	height: auto;
+	display: block;
+	color: #FF0400;
+	font-size: 40px;
+	position: relative;
+	left: 1413px;
+	top: -608px;
 }

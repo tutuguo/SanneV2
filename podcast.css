@@ -2,43 +2,48 @@
 .1 {
 }
 .vogel {
-	width: 98px;
-	margin-bottom: 0px;
-	height: 76px;
-	margin-left: 30px;
-	margin-top: 30px;
-	margin-right: 30px;
+	width: 90px;
+	height: 63px;
 	background-image: url(WebV2/Img/podbg.jpeg);
 	background-size: cover;
 	background-repeat: repeat;
 	position: relative;
-	left: 165px;
-	top: 119px;
+	left: 95px;
+	top: 75px;
+	border-radius: 12px 12px 27px;
 }
 .duizen {
-	width: 98px;
-	height: 76px;
+	width: 90px;
+	height: 63px;
 	margin-left: 30px;
 	margin-top: 30px;
 	margin-right: 30px;
 	position: absolute;
-	left: 165px;
-	top: 620px;
+	left: 63px;
+	top: 45px;
+	border-radius: 16px 14px 22px 9px;
 }
 .dolfijn {
-	width: 98px;
-	height: 76px;
+	width: 90px;
+	height: 63px;
 	margin-top: 30px;
 	margin-left: 30px;
 	margin-right: 30px;
 	position: absolute;
-	left: 165px;
-	top: 1120px;
+	left: 61px;
+	top: 46px;
+	border-radius: 13px 6px 23px 9px;
 }
 .podcast {
-	position: absolute;
-	left: 500px;
-	top: 30px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: static;
+	width: auto;
+	height: 600px;
+	z-index: 8;
+	margin-top: 100px;
+	display: block;
+	padding-top: 100px;
 }
 .body {
 	background-repeat: no-repeat;
@@ -70,12 +75,22 @@
 	font-weight: bold;
 }
 .text {
-	width: 400px;
+	width: 600px;
 	height: auto;
 	margin-top: 20px;
 	margin-left: 20px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	word-break: normal;
+	display: block;
+	position: fixed;
+	left: 55%;
+	z-index: 2;
+	background-image: url(WebV2/Img/sun1.1.png);
+	background-repeat: no-repeat;
+	background-size: 101% auto;
+	background-position: 0%;
+	background-position: 0% 116%;
+	top: 38%;
 }
 .p2 {
 	font-size: 16px;
@@ -100,23 +115,99 @@
 .frame1 {
 	width: 500px;
 	height: 500px;
-	background-image: url(WebV2/Img/podbg.jpeg);
+	background-image: url(WebV2/Img/podcastpiconly.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	position: relative;
-	left: 0px;
+	position: absolute;
+	left: 8px;
+	top: 43px;
 }
 .frame2 {
 	width: 500px;
 	height: 500px;
-	background-image: url(WebV2/Img/podbg.jpeg);
+	background-image: url(WebV2/Img/podcastpiconly.png);
 	background-repeat: no-repeat;
 	background-size: contain;
+	position: absolute;
+	left: 545px;
+	top: 44px;
 }
 .frame3 {
 	width: 500px;
 	height: 500px;
-	background-image: url(WebV2/Img/podbg.jpeg);
+	background-image: url(WebV2/Img/podcastpiconly.png);
 	background-size: contain;
 	background-repeat: no-repeat;
+	position: absolute;
+	left: 1081px;
+	top: 42px;
+}
+.bg{
+	z-index: 4;
+	position: static;
+	top: -20px;
+	width: auto;
+	height: auto;
+	display: block;
+}
+.pod2 {
+	position: relative;
+	opacity: 0.3;
+}
+.pod3 {
+	position: relative;
+	opacity: 0.3;
+}
+.pod4 {
+	position: relative;
+	opacity: 0.3;
+}
+.img1 {
+	z-index: 2;
+	position: fixed;
+}
+.img2 {
+	display: block;
+	position: fixed;
+	z-index: 2;
+	width: 500px;
+	height: auto;
+	left: 451px;
+	top: 433px;
+}
+.img3 {
+	width: 500px;
+	height: auto;
+	position: fixed;
+	left: 1040px;
+	top: 40px;
+}
+.img5 {
+}
+.pod5 {
+	position: relative;
+	opacity: 0.3;
+}
+.pod6 {
+	position: relative;
+	opacity: 0.3;
+}
+.pod1 {
+	opacity: 0.3;
+}
+.pod7 {
+	position: relative;
+	opacity: 0.3;
+}
+.pod8 {
+	position: relative;
+	opacity: 0.3;
+}
+.pod9 {
+	position: relative;
+	opacity: 0.3;
+}
+.pod10 {
+	position: relative;
+	opacity: 0.3;
 }

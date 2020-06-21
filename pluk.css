@@ -8,6 +8,7 @@
 	width: auto;
 	height: auto;
 	background-repeat: no-repeat;
+	word-break: normal;
 }
 
 
@@ -31,6 +32,137 @@ img{
 .plukinner:hover img{
 	display: block}
 
+/*confrontatie*/
+.confouter{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 567px;
+	left: 456px;
+}
+.confinner{
+	height: 20px;
+	width: 80px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.confinner:hover img{
+	display: block}
+
+
+/*tussen jou en het dier*/
+.tussenouter{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 655px;
+	left: 1076px;
+}
+.tusseninner{
+	height: 20px;
+	width: 60px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.tusseninner:hover img{
+	display: block}
+
+/*een lokroep om*/
+.lokouter{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 273px;
+	left: 1090px;
+}
+.lokinner{
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.lokinner:hover img{
+	display: block}
+
+
+/*kom dichterbij*/
+.komouter{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 658px;
+	left: 780px;
+}
+.kominner{
+	height: 20px;
+	width: 60px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.kominner:hover img{
+	display: block;
+	height: 80px;
+	width: auto;
+}
+
+/*plastic*/
+.plasouter{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 434px;
+	left: 1106px;
+}
+.plasinner{
+	height: 20px;
+	width: 60px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.plasinner:hover img{
+	display: block;
+	width: 80px;
+	height: auto;
+}
+
+
+/*in een podcast*/
+.inouter{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 405px;
+	left: 802px;
+}
+.ininner{
+	width: 60px;
+	background: white;
+	height: auto;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.ininner:hover img{
+	display: block;
+	height: 50px;
+	width: auto;
+}
+
+
 /*als kind*/
 .alsouter{
 	height: 300px;
@@ -41,27 +173,6 @@ img{
 }
 .alsinner{
 	height: 20px;
-	width: 100px;
-	background: white;
-}
-img{
-	height: auto;
-	width: 100px;
-	display:none;}
-.alsinner:hover img{
-	display: block}
-
-
-/*plastic*/
-.plasticouter{
-	height: 300px;
-	width: 300px;
-	position: absolute;
-	top: 67px;
-	left: 27px;
-}
-.plasticinner{
-	height: 20px;
 	width: 60px;
 	background: white;
 }
@@ -69,8 +180,12 @@ img{
 	height: auto;
 	width: 100px;
 	display:none;}
-.plasticinner:hover img{
-	display: block}
+.alsinner:hover img{
+	display: block;
+	width: 100px;
+	height: auto;
+}
+
 
 /*die*/
 .dieouter{
@@ -165,7 +280,7 @@ img{
 }
 .ontmoeinner{
 	height: 20px;
-	width: 300px;
+	width: 100px;
 	background: white;
 	text-align: center;
 }

@@ -4,36 +4,57 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-decoration: none;
+	display: block;
+	width: auto;
+	height: auto;
+	position: static;
 }
 .T1 {
-	width: auto;
 	font-size: 20px;
 	letter-spacing: 1px;
 	word-spacing: 3px;
 	display: block;
 	text-align: center;
-	height: auto;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	position: relative;
+	margin-bottom: 10px;
 }
 .T2 {
 	font-size: 20px;
 	word-spacing: 5px;
 	letter-spacing: 3px;
-	margin-top: 5px;
-	margin-left: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
 	position: relative;
+	width: auto;
+	height: auto;
+	display: block;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 .T3 {
-	margin-left: 5px;
-	margin-top: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
 	font-size: 20px;
 	letter-spacing: 3px;
+	width: auto;
+	height: auto;
+	display: block;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 .T4 {
-	margin-left: 5px;
-	margin-top: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
 	letter-spacing: 3px;
 	word-spacing: 5px;
 	font-size: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: block;
 }
 .T5 {
 	margin-left: 5px;
@@ -43,46 +64,67 @@
 	font-size: 20px;
 }
 .T6 {
-	margin-left: 5px;
-	margin-top: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
 	letter-spacing: 3px;
 	word-spacing: 5px;
 	font-size: 20px;
+	width: auto;
+	height: auto;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: block;
+	line-height: normal;
 }
 .T7 {
-	margin-left: 5px;
-	margin-top: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
 	letter-spacing: 3px;
 	word-spacing: 5px;
 	font-size: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: block;
 }
 .T8 {
-	margin-left: 5px;
-	margin-top: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
 	letter-spacing: 5px;
 	word-spacing: 3px;
 	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	margin-right: 10px;
 }
 .T9 {
-	margin-left: 5px;
-	margin-top: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
 	font-size: 20px;
 	letter-spacing: 3px;
 	word-spacing: 5px;
+	display: block;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 .T10 {
-	margin-left: 5px;
-	margin-top: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
 	font-size: 20px;
 	letter-spacing: 3px;
 	white-space: 5px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	display: block;
 }
 .T11 {
 	letter-spacing: 3px;
 	word-spacing: 5px;
 	font-size: 20px;
-	margin-left: 5px;
-	margin-top: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
+	display: block;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 .back {
 	color: #FF0400;
@@ -109,18 +151,30 @@
 	width: auto;
 	height: auto;
 }
+.A{
+	font-size: 60px;
+}
+.B{
+	font-size: 60px;
+}
+.C{
+	font-size: 60px;
+}
 
 .A:hover { 
     font-family: times new roman; 
-    color: black;
+    color: white;
+	font-size: 80px;
 	}
 .B:hover { 
     font-family:Snell Roundhand; 
-	color:black;}
+	color:white;
+	font-size: 80px;
+}
 	
 .C:hover { 
     font-family:Silom; 
-    color: black;
+    color: white;
 	font-stretch:extra-condensed;
 	text-transform:uppercase;
 	}
